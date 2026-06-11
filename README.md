@@ -1,7 +1,7 @@
 # LoopGhost007
 
 Data Science + Business student doing AI-driven Web3 security research.
-I run autonomous auditing pipelines, then verify every finding with a reproducible PoC, no mocks.
+I run autonomous auditing pipelines, then verify every finding with a reproducible PoC.
 Focus: zero-knowledge circuits, L1 consensus clients, and smart contracts.
 
 ### Selected disclosures
