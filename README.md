@@ -21,7 +21,6 @@ Dates are the fix-merge or publication month.
 | 2026-02 | Zircuit | Soundness (paid) | zkVM `l1_blocks` witness bypass: stale system-config in proven roots | [writeup](https://gist.github.com/loopghost/3ab50fb25cc0dcc00cf45ae5a3ec67ad) |
 | 2026-04 | Ripple rippled | Medium | Invariant flag overwrite (`=` vs `\|=`): violations silently committed | [PR #6609](https://github.com/XRPLF/rippled/pull/6609) |
 
-The Celestia fix ([PR #6906](https://github.com/celestiaorg/celestia-app/pull/6906)) credits `@loopghost` as reporter in the PR body.
 Additional findings remain under private disclosure or embargo and are added here as fixes ship.
 
 ### Research areas
