@@ -33,4 +33,3 @@ Additional findings remain under private disclosure or embargo and are added her
 - Immunefi: [LoopGhost007](https://immunefi.com/profile/LoopGhost007/)
 - HackenProof: [LoopGhost007](https://hackenproof.com/hackers/LoopGhost007)
 
-<!-- profile -->
