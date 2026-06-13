@@ -1,4 +1,4 @@
-# LoopGhost007
+# Portfolio
 
 Data Science + Business student doing AI-driven Web3 security research.
 I run autonomous auditing pipelines.
