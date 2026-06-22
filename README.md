@@ -21,7 +21,7 @@ Dates are the fix-merge or publication month.
 | 2026-03 | Ripple xrpl-py | **Critical** | SField registry corruption: binary-codec crash and silent tx corruption | [PR #918](https://github.com/XRPLF/xrpl-py/pull/918) |
 | 2026-02 | f(x) Protocol | **Critical** | FxUSD `wrapFrom` unbacked mint after pool liquidation | [commit](https://github.com/AladdinDAO/fx-protocol-contracts/commit/5e198e93657db008a57129e7eea21a996618f17f) |
 | 2026-02 | Zircuit | **Critical** | zkVM `l1_blocks` witness bypass: stale system-config in proven roots | [writeup](https://gist.github.com/loopghost/3ab50fb25cc0dcc00cf45ae5a3ec67ad) |
-| 2025-04 | Chainflip | **Critical** | AMM U256 overflow in `on_finalize`: consensus halt, ~$24M TVL frozen | [PR #5770](https://github.com/chainflip-io/chainflip-backend/pull/5770) |
+| 2026-02 | Chainflip | **Critical** | AMM U256 overflow in `on_finalize`: consensus halt, ~$24M TVL frozen | [commit](https://github.com/chainflip-io/chainflip-backend/commit/7cf98410161291e324e474657b2c918f7059f409) |
 
 Additional findings remain under private disclosure or embargo and are added here as fixes ship.
 
