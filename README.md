@@ -13,6 +13,7 @@ Dates are the fix-merge or publication month.
 |------|---------|----------|---------------|-----------|
 | 2026-06 | Payy Network | **Critical** | ZK circuit soundness: forged burn messages drain rollup USDC | [CVE-2026-48100](https://github.com/polybase/payy/security/advisories/GHSA-fhxc-63vg-9gwr) |
 | 2026-04 | Ripple rippled | Medium | Invariant flag overwrite (`=` vs `\|=`): violations silently committed | [PR #6609](https://github.com/XRPLF/rippled/pull/6609) |
+| 2026-04 | Polkadot SDK | **Critical** | Asset Hub `revive` precompiles miss `is_delegate_call()` guard: DELEGATECALL steals the caller's tokens and DOT | [PR #11676](https://github.com/paritytech/polkadot-sdk/pull/11676), [PR #11715](https://github.com/paritytech/polkadot-sdk/pull/11715) |
 | 2026-04 | Trezor | **Critical** | Solana ALT-backed recipient spoofed on the signing screen: SOL and SPL theft | [advisory](https://trezor.io/vulnerability/solana-alt-recipient-confirmation-mismatch) |
 | 2026-04 | Trezor | **Critical** | Solana account-type misclassification hides a CPI token drain in the blind-signing view | [advisory](https://trezor.io/vulnerability/solana-account-type-misclassification) |
 | 2026-03 | Celestia | **Critical** | `x/forwarding` collateral-token poisoning: permissionless TIA theft | [PR #6906](https://github.com/celestiaorg/celestia-app/pull/6906) |
