@@ -11,6 +11,8 @@ Dates are the fix-merge or publication month.
 
 | Date | Project | Severity | Vulnerability | Reference |
 |------|---------|----------|---------------|-----------|
+| 2026-06 | BitBox02 | **Critical** | BTC signing displays the attacker's `silent_payment` address instead of the device-derived multisig recipient (WYSIWYS): fund theft | [commit](https://github.com/BitBoxSwiss/bitbox02-firmware/commit/cbb40634cc24) |
+| 2026-06 | BitBox02 | **Critical** | EIP-712 chainId queried twice without caching: device shows one chain, signs a digest bound to another (Permit2 cross-chain replay) | [commit](https://github.com/BitBoxSwiss/bitbox02-firmware/commit/cbb40634cc24) |
 | 2026-06 | Payy Network | **Critical** | ZK circuit soundness: forged burn messages drain rollup USDC | [CVE-2026-48100](https://github.com/polybase/payy/security/advisories/GHSA-fhxc-63vg-9gwr) |
 | 2026-04 | Ripple rippled | Medium | Invariant flag overwrite (`=` vs `\|=`): violations silently committed | [PR #6609](https://github.com/XRPLF/rippled/pull/6609) |
 | 2026-04 | Polkadot SDK | **Critical** | Asset Hub `revive` precompiles miss `is_delegate_call()` guard: DELEGATECALL steals the caller's tokens and DOT | [PR #11676](https://github.com/paritytech/polkadot-sdk/pull/11676), [PR #11715](https://github.com/paritytech/polkadot-sdk/pull/11715) |
