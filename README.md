@@ -11,6 +11,7 @@ Dates are the fix-merge or publication month.
 
 | Date | Project | Severity | Vulnerability | Reference |
 |------|---------|----------|---------------|-----------|
+| 2026-07 | Concordium | **High** | `FinalizerSet` deserialization: attacker-controlled length causes quadratic-time blowup on consensus messages, CPU exhaustion / DoS | [GHSA-77c7-wp66-8xpc](https://github.com/Concordium/concordium-node/security/advisories/GHSA-77c7-wp66-8xpc) |
 | 2026-07 | Dango | **Critical** | Perps closed-session order-book index-price manipulation drains vault and depositor funds | [GHSA-mrmp-9x6x-r6p8](https://github.com/left-curve/left-curve/security/advisories/GHSA-mrmp-9x6x-r6p8) |
 | 2026-06 | BitBox02 | **Critical** | BTC signing displays the attacker's `silent_payment` address instead of the device-derived multisig recipient (WYSIWYS): fund theft | [commit](https://github.com/BitBoxSwiss/bitbox02-firmware/commit/cbb40634cc24) |
 | 2026-06 | BitBox02 | **Critical** | EIP-712 chainId queried twice without caching: device shows one chain, signs a digest bound to another (Permit2 cross-chain replay) | [commit](https://github.com/BitBoxSwiss/bitbox02-firmware/commit/cbb40634cc24) |
