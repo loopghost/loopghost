@@ -26,7 +26,7 @@ Dates are the fix-merge or publication month.
 | 2026-03 | Celestia | **Critical** | `x/forwarding` synthetic-slot poisoning: permanent TIA lock | [PR #6906](https://github.com/celestiaorg/celestia-app/pull/6906) |
 | 2026-03 | Polkadot SDK | **Critical** | XCM `fees` register not restored on rollback: permissionless asset duplication | [PR #11320](https://github.com/paritytech/polkadot-sdk/pull/11320) |
 | 2026-03 | Ripple xrpl-py | **Critical** | SField registry corruption: binary-codec crash and silent tx corruption | [PR #918](https://github.com/XRPLF/xrpl-py/pull/918) |
-| 2026-02 | f(x) Protocol | **Critical** | FxUSD `wrapFrom` unbacked mint after pool liquidation | [commit](https://github.com/AladdinDAO/fx-protocol-contracts/commit/5e198e93657db008a57129e7eea21a996618f17f) |
+| 2026-02 | f(x) Protocol | **Critical** | FxUSD `wrapFrom` unbacked mint after pool liquidation | [CVE-2026-67423](https://github.com/AladdinDAO/fx-protocol-contracts/security/advisories/GHSA-pq6r-m82m-fmr6) |
 | 2026-02 | Zircuit | **Critical** | zkVM `l1_blocks` witness bypass: stale system-config in proven roots | [writeup](https://gist.github.com/loopghost/3ab50fb25cc0dcc00cf45ae5a3ec67ad) |
 | 2026-02 | Chainflip | **Critical** | AMM U256 overflow in `on_finalize`: consensus halt, ~$24M TVL frozen | [commit](https://github.com/chainflip-io/chainflip-backend/commit/7cf98410161291e324e474657b2c918f7059f409) |
 
