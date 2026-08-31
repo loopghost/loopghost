@@ -11,6 +11,7 @@ Dates are the fix-merge or publication month.
 
 | Date | Project | Severity | Vulnerability | Reference |
 |------|---------|----------|---------------|-----------|
+| 2026-08 | Concordium | **High** | Unknown-parent blocks arriving as direct messages are relayed onward and skip network-layer deduplication: self-sustaining block storm saturates the consensus path and halts finalization network-wide | [GHSA-h37w-qpcg-8x6h](https://github.com/Concordium/concordium-node/security/advisories/GHSA-h37w-qpcg-8x6h) |
 | 2026-07 | Concordium | **High** | `FinalizerSet` deserialization: attacker-controlled length causes quadratic-time blowup on consensus messages, CPU exhaustion / DoS | [GHSA-77c7-wp66-8xpc](https://github.com/Concordium/concordium-node/security/advisories/GHSA-77c7-wp66-8xpc) |
 | 2026-07 | Dango | **Critical** | Perps closed-session order-book index-price manipulation drains vault and depositor funds | [GHSA-mrmp-9x6x-r6p8](https://github.com/left-curve/left-curve/security/advisories/GHSA-mrmp-9x6x-r6p8) |
 | 2026-07 | Etherlink | **Critical** | FA bridge double-claim: unmirrored CREATE-frame checkpoint reverts the deposit bookkeeping while the proxy mint commits, minting unbacked ERC20 | [post-mortem](https://forum.tezosagora.org/t/post-mortem-securing-farfadet-the-6-4-to-6-6-disclosures/7141), [commit](https://gitlab.com/tezos/tezos/-/commit/bdf658c2e9fb327849a7a22c2f61986c951912c0) |
